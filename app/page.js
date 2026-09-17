@@ -119,7 +119,14 @@ export default function Home() {
             ))
           )}
         </ul>
-        <p> hola este es el total de tareas {tasks.length}</p> 
+        <p> hola este es el total de tareas {tasks.length}</p>
+        <details>
+          <summary>opciones</summary>
+          <ul>
+            <li>papelera</li>
+            <hr></hr>
+            </ul>
+        </details>
       </section>
     </main>
   );
